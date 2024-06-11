@@ -158,7 +158,7 @@ app.put('/api/v1/tareas/:id', async (req, res) => {
     res.json({
         message: 'documento editado'
     })
-
+ })
 
 // Eliminar
 app.delete('/api/v1/tareas/:id', async (req, res) => {
@@ -189,4 +189,3 @@ app.listen(PORT, () => {
     console.log(`API escuchando en el puert: ${PORT}`)
 })
 
- })
