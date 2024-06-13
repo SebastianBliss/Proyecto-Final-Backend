@@ -181,6 +181,7 @@ app.delete('/api/v1/tareas/:id', async (req, res) => {
 
     res.json({
         message: 'documento eliminado'
+
     })
 })
 
